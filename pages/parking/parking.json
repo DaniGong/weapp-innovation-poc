@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "zan-popup": "dist/popup/parking"
+  },
+  "navigationBarTitleText": "Book a Parking Spot",
+  "disableScroll": true
+}

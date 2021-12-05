@@ -1,0 +1,44 @@
+/* pages/notification/notification.wxss */
+.notification-item{
+    width: 725rpx;
+    background: #ffffff;
+    padding: 25rpx 25rpx 25rpx 25rpx;
+    border-bottom: solid 1px #ebebeb;
+  }
+  .notification-item  image{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 80rpx;
+  }
+  .notification-item .avatar{
+    flex: 1;
+  }
+  .notification-item .notification-content{
+    flex: 4;
+    text-align: left;
+  }
+  .notification-item .notification-content text{
+    /*display: block;*/
+  }
+  .notification-item .notification-content .notification-source{
+    color: #818A8F;
+    font-size: 24rpx;
+    padding: 4rpx 0 8rpx 0;
+  }
+  .notification-item .notification-content .notification-source .notificationmate{
+    font-size: 28rpx;
+    color: #000000;
+    text-align: left;
+  }
+  .notification-item .notification-content .notification-source .lasttime{
+    flex: 1;
+    font-size: 22rpx;
+    float: right;
+    vertical-align: text-bottom;
+  }
+  .notification-item .notification-content .notification-txt{
+    display: block;
+    color: #7b7b7b;
+    font-size: 26rpx;
+    line-height: 34rpx;
+  }

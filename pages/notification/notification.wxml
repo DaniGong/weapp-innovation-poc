@@ -1,0 +1,38 @@
+<!--pages/notification/notification.wxml-->
+
+<view class="container notification">
+  <view class="notification-item flex-wrp">
+    <!-- <view class="avatar flex-item">
+      <image src="../../images/icon8.jpg"></image>
+    </view> -->
+    <view class="notification-content flex-item">
+      <view class="notification-source">
+        <text class="notificationmate">System Notification</text>
+        <text class="lasttime">Yesterday 22:30</text>
+      </view>
+      <text class="notification-txt">You have booked P10020</text>
+    </view>
+  </view>
+  <view class="notification-item flex-wrp">
+    <view class="notification-content flex-item">
+      <view class="notification-source">
+        <text class="notificationmate">System Notification</text>
+        <text class="lasttime">2021/12/3 22:12</text>
+      </view>
+      <text class="notification-txt">You have booked P13044</text>
+    </view>
+  </view>
+
+  <view class="notification-item flex-wrp">
+    <view class="notification-content flex-item">
+      <view class="notification-source">
+        <text class="notificationmate">System Notification</text>
+        <text class="lasttime">2021/12/2 23:12</text>
+      </view>
+      <text class="notification-txt">You have booked P10064</text>
+    </view>
+  </view>
+
+</view>
+
+
